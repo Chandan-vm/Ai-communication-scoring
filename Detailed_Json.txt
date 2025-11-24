@@ -1,0 +1,185 @@
+Text : Hello, My name is Chandan Shetty, Good morning to everyone!
+Overall Score : 57.85
+Word Count : 10
+{
+  "overall_score": 57.85,
+  "details": [
+    {
+      "criterion": "Salutation Level",
+      "description": "Salutation Level",
+      "weight": 5.0,
+      "score": 64.11,
+      "semantic_score": 0.59,
+      "keyword_score": null,
+      "length_score": 1.0,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.59; Length score: 1.00; Words in transcript: 10"
+    },
+    {
+      "criterion": "Key word Presence (Does this include name, age, class, school, family, hobbies/interests, goals, and unique point)",
+      "description": "Key word Presence (Does this include name, age, class, school, family, hobbies/interests, goals, and unique point)",
+      "weight": 30.0,
+      "score": 57.2,
+      "semantic_score": 0.572,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.57; Words in transcript: 10"
+    },
+    {
+      "criterion": "Flow (Is the introduction following the order, Salutation --> Name --> Mandatory details --> Optional Details --> Closing",
+      "description": "Flow (Is the introduction following the order, Salutation --> Name --> Mandatory details --> Optional Details --> Closing",
+      "weight": 5.0,
+      "score": 61.07,
+      "semantic_score": 0.611,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.61; Words in transcript: 10"
+    },
+    {
+      "criterion": "Speech rate(words/minute)",
+      "description": "Speech rate(words/minute)",
+      "weight": 10.0,
+      "score": 59.06,
+      "semantic_score": 0.532,
+      "keyword_score": null,
+      "length_score": 1.0,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.53; Length score: 1.00; Words in transcript: 10"
+    },
+    {
+      "criterion": "Grammar errors count using Language Tool",
+      "description": "Grammar errors count using Language Tool",
+      "weight": 10.0,
+      "score": 57.96,
+      "semantic_score": 0.52,
+      "keyword_score": null,
+      "length_score": 1.0,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.52; Length score: 1.00; Words in transcript: 10"
+    },
+    {
+      "criterion": "Vocabulary richness (MTLD/TTR) ",
+      "description": "Vocabulary richness (MTLD/TTR) ",
+      "weight": 10.0,
+      "score": 54.71,
+      "semantic_score": 0.547,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.55; Words in transcript: 10"
+    },
+    {
+      "criterion": "Filler Word Rate ",
+      "description": "Filler Word Rate ",
+      "weight": 15.0,
+      "score": 56.32,
+      "semantic_score": 0.501,
+      "keyword_score": null,
+      "length_score": 1.0,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.50; Length score: 1.00; Words in transcript: 10"
+    },
+    {
+      "criterion": "Sentiment/positivity (Transcript-based emotion model)",
+      "description": "Sentiment/positivity (Transcript-based emotion model)",
+      "weight": 15.0,
+      "score": 60.67,
+      "semantic_score": 0.551,
+      "keyword_score": null,
+      "length_score": 1.0,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.55; Length score: 1.00; Words in transcript: 10"
+    },
+    {
+      "criterion": "Salutation Level ( based the type of saluation provided give the Score)",
+      "description": "Salutation Level ( based the type of saluation provided give the Score)",
+      "weight": 1.0,
+      "score": 56.77,
+      "semantic_score": 0.568,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.57; Words in transcript: 10"
+    },
+    {
+      "criterion": "Key word Presence \n(Does the text include name, age, class, school, family, hobbies/interests, goals, and unique point) and give point accordingly ",
+      "description": "Key word Presence \n(Does the text include name, age, class, school, family, hobbies/interests, goals, and unique point) and give point accordingly ",
+      "weight": 1.0,
+      "score": 56.36,
+      "semantic_score": 0.564,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.56; Words in transcript: 10"
+    },
+    {
+      "criterion": "Flow (Is the introduction following the order, Salutation --> Name --> Mandatory details --> Optional Details --> Closing",
+      "description": "Flow (Is the introduction following the order, Salutation --> Name --> Mandatory details --> Optional Details --> Closing",
+      "weight": 1.0,
+      "score": 61.07,
+      "semantic_score": 0.611,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.61; Words in transcript: 10"
+    },
+    {
+      "criterion": "Speech rate(words/minute) or WPM",
+      "description": "Speech rate(words/minute) or WPM",
+      "weight": 1.0,
+      "score": 52.93,
+      "semantic_score": 0.529,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.53; Words in transcript: 10"
+    },
+    {
+      "criterion": "Grammar errors count using Language Tool\nUse Python Language tool can be used to identify the errors ",
+      "description": "Grammar errors count using Language Tool\nUse Python Language tool can be used to identify the errors ",
+      "weight": 1.0,
+      "score": 52.36,
+      "semantic_score": 0.524,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.52; Words in transcript: 10"
+    },
+    {
+      "criterion": "Vocabulary richness \nOption 1 : TTR ( Type token error 0, easy and simple)\nOption 2 : MTLD using python Libraries  (Measure of Textual Lexical Diversity)\n\nAny option is preferable. ",
+      "description": "Vocabulary richness \nOption 1 : TTR ( Type token error 0, easy and simple)\nOption 2 : MTLD using python Libraries  (Measure of Textual Lexical Diversity)\n\nAny option is preferable. ",
+      "weight": 1.0,
+      "score": 51.7,
+      "semantic_score": 0.517,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.52; Words in transcript: 10"
+    },
+    {
+      "criterion": "Filler Word Rate \nFiller words List (um, uh, like, you know, so, actually, basically, right, i mean, well, kinda, sort of, okay, hmm, ah)\nFind the Filler words either using Python Libraries or using keyword search.",
+      "description": "Filler Word Rate \nFiller words List (um, uh, like, you know, so, actually, basically, right, i mean, well, kinda, sort of, okay, hmm, ah)\nFind the Filler words either using Python Libraries or using keyword search.",
+      "weight": 1.0,
+      "score": 49.07,
+      "semantic_score": 0.491,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.49; Words in transcript: 10"
+    },
+    {
+      "criterion": "Sentiment/positivity (Transcript-based emotion model)\n\nPositive (enthusiastic, confident, grateful)\nNeutral (factual, calm)\nNegative (disinterested, anxious, dull)\n\nUsing any open source  libraries for sentiment analysis like VADER or  spaCy",
+      "description": "Sentiment/positivity (Transcript-based emotion model)\n\nPositive (enthusiastic, confident, grateful)\nNeutral (factual, calm)\nNegative (disinterested, anxious, dull)\n\nUsing any open source  libraries for sentiment analysis like VADER or  spaCy",
+      "weight": 1.0,
+      "score": 53.77,
+      "semantic_score": 0.538,
+      "keyword_score": null,
+      "length_score": null,
+      "words": 10,
+      "feedback": "Semantic alignment: 0.54; Words in transcript: 10"
+    }
+  ],
+  "words": 10
+}
